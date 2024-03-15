@@ -11,6 +11,7 @@ Project contains a few different examples - basic triplanar projection, world xz
 the effect is actually quite simple:
 - the first pass writes only back faces BEHIND other geometry into the stencil buffer
 - the second pass renders only front faces where the first pass has already wirrten into the stencil buffer
+
 this effectively means every geo INSIDE the volume will be colored.
 
 because URP doesnt support multiple passes, i have split them up into spearate materials on the same object and adjusted their rendering order manually.
