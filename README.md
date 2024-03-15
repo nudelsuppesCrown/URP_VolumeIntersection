@@ -1,4 +1,4 @@
-URP VolumeIntersection - "Omnidirectional Stencil"
+URP Volume Intersection - "Omnidirectional Stencil"
 
 visual examples can be found here: https://www.artstation.com/artwork/elwgBJ
 
