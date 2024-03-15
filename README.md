@@ -7,6 +7,7 @@ Project contains a few different examples - basic triplanar projection, world xz
 
 
 ========================== how it works =======================
+
 the effect is actually quite simple:
 - the first pass writes only back faces BEHIND other geometry into the stencil buffer
 - the second pass renders only front faces where the first pass has already wirrten into the stencil buffer
